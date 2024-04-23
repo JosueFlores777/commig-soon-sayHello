@@ -8,8 +8,7 @@ type Props = {
 
 export default function ArrowCard({entry, pill}: Props) {
     return (
-      null
-    /*  <a href={`/${entry.collection}/${entry.slug}`} class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
+      <a href={`/${entry.collection}/${entry.slug}`} class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
       <div class="w-full group-hover:text-black group-hover:dark:text-white blend">
         <div class="flex flex-wrap items-center gap-2">
           {pill &&
@@ -40,6 +39,6 @@ export default function ArrowCard({entry, pill}: Props) {
         <line x1="5" y1="12" x2="19" y2="12" class="scale-x-0 group-hover:scale-x-100 translate-x-4 group-hover:translate-x-1 transition-all duration-300 ease-in-out" />
         <polyline points="12 5 19 12 12 19" class="translate-x-0 group-hover:translate-x-1 transition-all duration-300 ease-in-out" />
       </svg>
-    </a>*/
+    </a>
    )
 }

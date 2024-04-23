@@ -11,7 +11,7 @@ type Props = {
 export default function Projects({ data, tags }: Props) {
   const [filter, setFilter] = createSignal(new Set<string>())
   const [projects, setProjects] = createSignal<CollectionEntry<"projects">[]>([])
-/*
+
   createEffect(() => {
     setProjects(data.filter((entry) => 
       Array.from(filter()).every((value) => 
@@ -20,7 +20,7 @@ export default function Projects({ data, tags }: Props) {
         )
       )
     ))
-  })*/
+  })
 
   function toggleTag(tag: string) {
     setFilter((prev) => 
