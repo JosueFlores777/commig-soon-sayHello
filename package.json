@@ -2,6 +2,7 @@
   "name": "sayhellocomming",
   "type": "module",
   "version": "1.0.0",
+  "homepage": "https://usayhello.com/prueba/",
   "scripts": {
     "dev": "astro dev",
     "dev:network": "astro dev --host",
